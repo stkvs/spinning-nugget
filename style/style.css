@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+img {
+    max-width: 30vw;
+    aspect-ratio: 1/1;
+}
+
+@media only screen and (max-width: 1024px) and (pointer: coarse) {
+    img {
+        max-width: 60vw;
+    }
+}
