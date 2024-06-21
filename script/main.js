@@ -1,8 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const audio = new Audio('./assets/loop.mp3');
+    const audio = document.querySelector('audio');
     audio.volume = 0.3;
-    audio.loop = true;
-    setTimeout(() => {
-        audio.play();
-    }, 500);
 });
