@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() {
             imgElement.style.display = 'block';
             audioElement.volume = 0.3;
-            audioElement.loop = true;
             audioElement.play();
         }, 2000);
     });
